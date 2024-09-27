@@ -1,0 +1,111 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(145deg, #2e2e2e, #1c1c1c); 
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7); 
+}
+
+.main-heading {
+    font-size: 3rem;
+    color: #ffffff; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-heading span {
+    color: #cd613a; 
+}
+
+#gameArea {
+    background-color: #3a3a3a; 
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(125, 59, 59, 0.7), 0 4px 10px rgba(0, 0, 0, 0.3); 
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 1.8rem;
+    color: #f0f0f0; 
+}
+
+input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #4e4e4e; 
+    border-radius: 5px;
+    background-color: #2b2b2b; 
+    color: #fff; 
+    font-size: 1.5rem;
+}
+
+input[type="number"]::placeholder {
+    color: #a38b8b; 
+}
+
+button {
+    background-color: #ff6347; 
+    color: #fff;
+    border: 2px solid #cc4a33; 
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+button:active {
+    transform: scale(0.98); 
+}
+
+
+.Guess {
+    background-color: rgb(49, 49, 91); 
+    border-color: #388f75; 
+}
+
+.Guess:hover{
+background-color: #94706b; 
+border-color: #b43e2c; 
+}
+
+.restart {
+    background-color: #554c25; 
+    border-color: black; 
+}
+.restart:hover{
+    background-color: #686140; 
+    border-color: #b43e2c; 
+
+}
+
+#feedback {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ff6347; 
+}
+
+#attemptCount {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    color: #f0f0f0; 
+}
+
+
+#hint {
+    color: #bbbbbb; 
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 1.5rem;
+}
